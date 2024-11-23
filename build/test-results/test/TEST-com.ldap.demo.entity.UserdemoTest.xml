@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ldap.demo.entity.UserdemoTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-11-23T17:43:03" hostname="J7X4Y7V5JT" time="0.009">
+  <properties/>
+  <testcase name="getId()" classname="com.ldap.demo.entity.UserdemoTest" time="0.005"/>
+  <testcase name="setId()" classname="com.ldap.demo.entity.UserdemoTest" time="0.0"/>
+  <testcase name="getFirstname()" classname="com.ldap.demo.entity.UserdemoTest" time="0.001"/>
+  <testcase name="setLastname()" classname="com.ldap.demo.entity.UserdemoTest" time="0.0"/>
+  <testcase name="getLastname()" classname="com.ldap.demo.entity.UserdemoTest" time="0.001"/>
+  <testcase name="setFirstname()" classname="com.ldap.demo.entity.UserdemoTest" time="0.0"/>
+  <testcase name="getEmail()" classname="com.ldap.demo.entity.UserdemoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

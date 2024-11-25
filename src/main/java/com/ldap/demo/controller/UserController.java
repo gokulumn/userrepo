@@ -23,8 +23,8 @@ public class UserController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Userdemo> getUserById(@PathVariable Integer id) {
-        Optional<Userdemo> book = userService.getUserById(id);
-        return book.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+        Optional<Userdemo> user = userService.getUserById(id);
+        return user.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @PostMapping
